@@ -28,7 +28,13 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/actions/*": ["actions/*"],
+      "@/lib/*": ["lib/*"],
+      "@/utils/*": ["utils/*"]
+    }
   },
   "include": [
     "**/*.ts",
