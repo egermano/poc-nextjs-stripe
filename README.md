@@ -42,7 +42,7 @@ cp .env.example .env.local
 
 Then, add the following variables:
 
-`NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key
-`STRIPE_SECRET_KEY` - Your Stripe secret key
+- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key
+- `STRIPE_SECRET_KEY` - Your Stripe secret key
 
 
